@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ANAND</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="photography website">
+    <meta name="keywords" content="ANAND, Photographer, photography, html, sass,event">
+    <meta name="author" content="anand k ajith">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+    <section id="hero">
+      <!-- SVG omitted for brevity -->
+      <header>
+        <div class="nav-toggle">
+          <p>Menu</p><span></span>
+        </div>
+        <ul class="nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#full-slide">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </header>
+      <div class="wrapper">
+        <div class="welcome">
+          <h1><strong>ANAND</strong> K AJITH</h1>
+          <p>STORY AND NATURE.</p>
+        </div>
+        <div class="photographer"><img src="assets/img/hero.png" alt="Photographer"></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrapper">
+        <div class="camera"><img src="assets/img/camera.png" alt="Camera"></div>
+        <div class="blurb">
+          <h2>ABOUT <strong>ME</strong></h2>
+          <p>Hi, I’m Anand, a passionate photographer with a love for capturing moments that tell real, meaningful stories. Whether it’s the raw emotion in a portrait, the quiet beauty of nature, or the vibrant energy of a city street, I aim to freeze time and preserve emotion in every frame. My journey behind the lens began with a simple curiosity and has grown into a deep commitment to visual storytelling. With every click, I strive to create images that connect, inspire, and speak without words.</p>
+          <div class="social">
+            <a href="https://facebook.com" target="_blank"><i class="icon-facebook"></i></a>
+            <a href="https://www.instagram.com/anand_k_ajith__?igsh=dWs1b3dhazQxMDhn" target="_blank"><i class="icon-instagram"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="icon-twitter"></i></a>
+            <a href="https://pinterest.com" target="_blank"><i class="icon-pinterest-p"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="full-slide">
+      <ul class="banner">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <i class="icon-chevron-thin-left prev"></i>
+      <i class="icon-chevron-thin-right next"></i>
+    </section>
+
+    <section id="featured">
+      <div class="wrapper">
+        <div class="blurb">
+          <h2><strong> TAKE </strong> INSPIRATION </h2>
+          <p>IT IS ALL ABOUT THE DEPTH OF FEELING NOT THE DEPTH OF FIELD.</p>
+        </div>
+        <div class="featured"><img src="assets/img/featured.jpg" alt="Featured"></div>
+      </div>
+    </section>
+
+    <section id="three-slide">
+      <div class="wrapper">
+        <ul class="slider">
+          <li class="back"><img src="assets/img/three-slide/thumb-1.jpg"></li>
+          <li class="current"><img src="assets/img/three-slide/thumb-2.jpg"></li>
+          <li class="front"><img src="assets/img/three-slide/thumb-3.jpg"></li>
+          <li><img src="assets/img/three-slide/thumb-4.jpg"></li>
+          <li><img src="assets/img/three-slide/thumb-5.jpg"></li>
+          <li><img src="assets/img/three-slide/thumb-6.jpg"></li>
+          <li><img src="assets/img/three-slide/thumb-7.jpg"></li>
+          <li><img src="assets/img/three-slide/thumb-8.jpg"></li>
+        </ul>
+      </div>
+      <i class="icon-chevron-thin-left prev"></i>
+      <i class="icon-chevron-thin-right next"></i>
+    </section>
+
+    <section id="contact">
+      <div class="wrapper">
+        <div class="blurb">
+          <h2><strong>Say</strong> Hello</h2>
+          <p>FOR ENQUIRIES PLEASE CONTACT.</p>
+        </div>
+        <!-- ✅ Contact Form using Formsubmit -->
+        <form action="https://formsubmit.co/anandkajith123@gmail.com" method="POST">
+          <input type="email" name="email" placeholder="Your Email" required>
+          <input type="text" name="subject" placeholder="Subject" required>
+          <textarea name="message" placeholder="Message" required></textarea>
+          <input type="submit" value="Send Message">
+        </form>
+      </div>
+      <p class="copyright">&copy;anand k ajith @ 2025</p>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+    <script src="assets/js/functions-min.js"></script>
+  </body>
+</html>
